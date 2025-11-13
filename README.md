@@ -1,19 +1,16 @@
 # Financial-transaction-summary-tool
 
-# 📘 Project Purpose & Sprint Goal
-This project aims to develop a **Python-based Financial Transactions Summary Tool** that reads, cleans, and summarizes a dataset of financial transactions.  
-It provides key insights such as income vs. expenses, monthly spending trends, and top spending categories.  
+## 📌 Project Overview
+This tool processes a financial transactions dataset to provide summaries and insights such as:
+- Total income and expenses
+- Monthly summaries
+- Top transactions
+- Optional visualizations
 
-**Sprint Goal:**  
-Deliver a working Python tool within one Agile sprint that processes a financial transactions dataset and outputs meaningful summaries and insights.
-
-## 🗂 Dataset Note (CSV Not Committed)
-- Dataset file: `financial_transactions.csv`
-- Contains 100,000 records with:
-  - `transaction_id`, `date`, `customer_id`, `amount`, `type`, `description`
-- Do **not** upload this CSV to GitHub.  
-  Add the following to `.gitignore`:
-
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-repo-name>.git
 
 # STEP 1 — TEAM FORMATION & LIFTOFF
 
