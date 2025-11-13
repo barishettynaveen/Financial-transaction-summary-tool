@@ -1,5 +1,15 @@
 # Financial-transaction-summary-tool
 
+Project purpose & Sprint Goal
+
+Dataset note (CSV not committed)
+
+How to run (venv, pip install -r requirements.txt, python app/main.py)
+
+Repo structure (modules you’ll build)
+
+Collaboration rules (branch/PR/review)
+
 # STEP 1 — TEAM FORMATION & LIFTOFF
 
 #Mission & Vision :
