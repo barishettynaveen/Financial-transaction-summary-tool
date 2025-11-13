@@ -1,6 +1,6 @@
 # 💵 Financial Transactions Summary Tool
 
-##Project Overview
+# Project Overview
 
 This project is a Python-based **Financial Transactions Summary Tool** that reads, cleans, and summarizes financial transaction data. It calculates total income, total expenses, and net balance from the provided dataset.
 
