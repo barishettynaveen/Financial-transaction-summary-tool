@@ -51,15 +51,16 @@ financial-transactions-summary-tool/
 
 ## User Stories (Sprint Planning)
 
-### **US-01: Load & Clean Dataset**
+### US-01: Load & Clean Dataset
+
 **As a** data analyst  
 **I want to** load and clean the financial dataset  
 **So that** the summaries are accurate  
-**Acceptance Criteria:**  
-- Dataset loads without errors  
-- Invalid or missing records are removed  
-- Column formats are standardized  
 
+**Acceptance Criteria:**
+- Dataset is loaded without errors
+- Missing or invalid values are handled
+- Cleaned dataset is ready for further analysis
 ---
 
 ### **US-02: Calculate Income & Expense**
