@@ -33,29 +33,13 @@ financial-transactions-summary-tool/
 - Top 5 transactions bar chart
 
 ## User Stories (Sprint Planning)
-### US-01: Load & Clean Dataset
-
-**As a** data analyst  
-**I want to** load and clean the financial dataset  
-**So that** the summaries are accurate  
-
-**Acceptance Criteria:**
-- Dataset is loaded without errors
-- Missing or invalid values are handled
-- Cleaned dataset is ready for further analysis
 
 ## Tests
 Run tests: pytest
 
-## Agile Collaboration
+### US-01 Implementation
 
-Branch-per-feature workflow
-
-Pull requests with reviews
-
-User story IDs used for traceability
-
-Frequent, meaningful commits throughout the sprint
+This user story involved building the core data-loading step for the project. The team implemented the load_and_clean_data() function, which reads the raw CSV file, removes missing or invalid records, standardizes data types, and prepares a clean dataset for all other summaries and visualizations. This ensures that every feature in the tool is based on accurate and reliable data.
 
 ## Links 
 
