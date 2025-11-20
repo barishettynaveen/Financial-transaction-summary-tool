@@ -41,6 +41,9 @@ Run tests: pytest
 
 This user story involved building the core data-loading step for the project. The team implemented the load_and_clean_data() function, which reads the raw CSV file, removes missing or invalid records, standardizes data types, and prepares a clean dataset for all other summaries and visualizations. This ensures that every feature in the tool is based on accurate and reliable data.
 
+### US-02 - Income & Expense Summary
+
+I implemented the calculate_income_expense() function, which computes total income from credits and total expenses from debits. This helps users understand their financial balance. I validated the results using sample transactions and ensured that the feature integrates correctly into main.py.
 
 
 ## Links 
