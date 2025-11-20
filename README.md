@@ -21,25 +21,45 @@ financial-transactions-summary-tool/
 └── tests/
 └── test_transactions.py
 
-# How to Run the Project
-Install dependencies: py -m pip install matplotlib -r requirements.txt
+## Features
 
-#Run the tool:
-python main.py
+### ✔ Load & Clean Dataset
+- Reads the raw CSV file
+- Removes invalid or missing records
+- Standardizes column formats for consistency
 
-#Features
+### ✔ Income & Expense Summary
+- Calculates total income (credits)
+- Calculates total expenses (debits)
 
-Clean and load transaction dataset
+### ✔ Monthly Report
+- Groups all transactions by month
+- Computes monthly totals for credits and debits
 
-Calculate total income and total expenses
+### ✔ Customer-Level Summary
+- Ranks customers by total spending
+- Generates a top 10 customer spending report
 
-Monthly summary of credits and debits
+### ✔ Top Transactions
+- Identifies the highest-value financial transactions
 
-Customer level summary
+### ✔ Visual Charts
+- Monthly credit/debit trend line chart  
+- Income vs. expense pie chart  
+- Top 10 customers bar chart  
+- Top 5 transactions bar chart
 
-Top transactions
+# User Stories (Sprint Planning)
 
-Visualization charts
+### *US-01: Load & Clean Dataset*
+*As a* data analyst  
+*I want to* load and clean the financial dataset  
+*So that* the summaries are accurate  
+*Acceptance Criteria:*  
+- Dataset loads without errors  
+- Invalid or missing records are removed  
+- Column formats are standardized  
+
 
 
 ## Tests
