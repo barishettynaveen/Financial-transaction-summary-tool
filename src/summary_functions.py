@@ -1,3 +1,4 @@
+
 def calculate_income_expense(df):
     """
     Calculates total income (credit) and total expenses (debit).
