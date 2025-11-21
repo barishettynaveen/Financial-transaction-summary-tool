@@ -45,6 +45,10 @@ This user story involved building the core data-loading step for the project. Th
 
 I implemented the calculate_income_expense() function, which computes total income from credits and total expenses from debits. This helps users understand their financial balance. I validated the results using sample transactions and ensured that the feature integrates correctly into main.py.
 
+### US-03 - Customer Summary
+
+In this user story, we focused on understanding how much each customer spends. We created a function that adds up all the transactions for every customer and then sorts them from the highest spender to the lowest. This helps us quickly see which customers contribute the most to the business. The results from this feature are also used later in reports and charts.
+
 
 ## Links 
 

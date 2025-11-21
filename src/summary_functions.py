@@ -13,4 +13,3 @@ def calculate_income_expense(df):
     }
 
 
-
