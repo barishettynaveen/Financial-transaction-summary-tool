@@ -52,6 +52,8 @@ In this user story, we focused on understanding how much each customer spends. W
 ### User Story 4 – Monthly Summary:
 For this user story, we created the feature that generates the monthly financial report. The function groups all transactions by month and calculates how much money came in and went out during each month. This helps users quickly understand their month-to-month financial pattern and see any changes or trends over time.
 
+### US-05 - Visualization
+This user story focused on adding visual charts to make the financial data easier to understand. We created simple graphs such as a monthly trend line chart, a pie chart for income vs expense, and bar charts for customers and high-value transactions. These visuals help users clearly see patterns instead of reading only numbers.
 
 ## Links 
 
