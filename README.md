@@ -55,6 +55,9 @@ For this user story, we created the feature that generates the monthly financial
 ### US-05 - Visualization
 This user story focused on adding visual charts to make the financial data easier to understand. We created simple graphs such as a monthly trend line chart, a pie chart for income vs expense, and bar charts for customers and high-value transactions. These visuals help users clearly see patterns instead of reading only numbers.
 
+### Test Cases:
+For this user story, we wrote a few basic test cases to make sure every part of our project works correctly. These tests help us check if the data loads properly, if the income and expense calculations are accurate, and if the customer summary, monthly report, and top transactions functions all return expected results. Running these tests gives us confidence that the tool is working as it should and helps us catch mistakes early before they cause bigger problems.
+
 ## Links 
 
 GitHub Repository: https://github.com/barishettynaveen/Financial-transaction-summary-tool-Sec-7-Group-5
