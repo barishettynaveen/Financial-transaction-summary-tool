@@ -7,4 +7,3 @@ __pycache__/
 .venv/
 *.csv
 data/
-attendance_data.json
