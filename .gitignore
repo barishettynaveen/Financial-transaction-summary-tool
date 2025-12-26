@@ -7,3 +7,5 @@ __pycache__/
 .venv/
 *.csv
 data/
+rymal_attendance_data.json
+rymal_employees.json
